@@ -18,5 +18,5 @@ export default defineConfig({
     react(),
     tailwindcss()    // ← ADD THIS
   ],
-  base:"./",
+ base: "/Portfolio-/",
 });
