@@ -235,7 +235,7 @@
 import React, { useState, useEffect } from 'react';
 import { Github, Linkedin, X } from 'lucide-react';
 //import profilePic from '../image/dp.jpg'; // Update path if needed
-import profilePic from '../image/dp3.png';
+import profilePic from '../image/dp5.png';
 const Hero = ({ isDark }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);

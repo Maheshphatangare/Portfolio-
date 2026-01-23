@@ -63,12 +63,12 @@ display across mobile and desktop devices.`,
     //   tech: ["React", "Firebase", "Tailwind"],
     //   gradient: "from-blue-500 to-cyan-500"
     // },
-{
-  title: "Voting Application",
-  description: `Built a full-stack Java application with RESTful APIs for secure voting and data retrieval using Spring Boot and MySQL. Optimized SQL queries to improve API response time by 40%, enhancing user experience. Ensured 100% secure and transparent voting processes, eliminating manual inefficiencies.`,
-  tech: ["React.js", "Vite ","Spring-boot","java", "My SQL", "Tailwind"],
-  gradient: "from-red-500 to-teal-500"
-},
+// {
+//   title: "Voting Application",
+//   description: `Built a full-stack Java application with RESTful APIs for secure voting and data retrieval using Spring Boot and MySQL. Optimized SQL queries to improve API response time by 40%, enhancing user experience. Ensured 100% secure and transparent voting processes, eliminating manual inefficiencies.`,
+//   tech: ["React.js", "Vite ","Spring-boot","java", "My SQL", "Tailwind"],
+//   gradient: "from-red-500 to-teal-500"
+// },
     {
       title: "LED Screen Manager",
       description: "Developed a dynamic LED screen content management platform that allows users to create, edit, and display custom designs on LED screens for advertising purposes. Integrated a canvas editor to add text, images, and videos, which can be instantly previewed and pushed to live LED displays",
@@ -76,6 +76,26 @@ display across mobile and desktop devices.`,
       gradient: "from-green-500 to-teal-500",
       link: "https://your-project-link.com"
     }
+    ,{
+  title: "Dystrap (React JS Web Application)",
+  description: `Developed a modern, responsive web application using React.js and Tailwind CSS.
+Implemented dynamic UI components with seamless API integration for real-time data handling.
+Integrated backend APIs tested using Postman and connected with Python-based services.
+Designed clean, reusable components using HTML and CSS, ensuring cross-browser compatibility.
+Focused on performance optimization and responsive layouts for smooth user experience across devices.`,
+  tech: [
+    "React.js",
+    "Tailwind CSS",
+    "HTML",
+    "CSS",
+    "API Integration",
+    "Postman",
+    "Python"
+  ],
+  gradient: "from-indigo-500 to-purple-600",
+  link: "https://www.dystrap.com"
+}
+
   ];
 
   const certifications = [
