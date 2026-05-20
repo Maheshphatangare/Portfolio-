@@ -74,7 +74,7 @@ display across mobile and desktop devices.`,
       description: "Developed a dynamic LED screen content management platform that allows users to create, edit, and display custom designs on LED screens for advertising purposes. Integrated a canvas editor to add text, images, and videos, which can be instantly previewed and pushed to live LED displays",
       tech: ["React", "FireBase", "FabricJS","Tailwind"],
       gradient: "from-green-500 to-teal-500",
-      link: "https://your-project-link.com"
+      link: "https://sm.rakibedynamics.in/login"
     }
     ,{
   title: "Dystrap (React JS Web Application)",
@@ -95,31 +95,86 @@ Focused on performance optimization and responsive layouts for smooth user exper
   gradient: "from-indigo-500 to-purple-600",
   link: "https://www.dystrap.com"
 }
+,{
+  title: "ICC Cricket World Cup 2023 - Advanced Data Analysis",
+  description: `Conducted end-to-end data analysis on the Cricket World Cup 2023. 
+  Collected, cleaned, and processed large datasets containing match results, player statistics, deliveries, and venues. 
+  Performed exploratory data analysis (EDA), statistical modeling, and created insightful visualizations to identify 
+  key performance indicators, toss impact, powerplay efficiency, and death overs performance.
 
+  Built an interactive web dashboard using React to make the insights accessible to users in real-time.`,
+  
+  tech: [
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Power BI",
+    "Tableau",
+    "Data Cleaning",
+    "Statistical Analysis"
+  ],
+  
+  gradient: "from-blue-500 to-purple-600",
+  link: "#"
+}
   ];
 
   const certifications = [
     {
-      title: "AWS Certified Developer – Associate",
-      issuer: "Amazon Web Services",
-      year: "2024"
+    title: "Deloitee Data Analytics Professional Certificate",
+    issuer: "Deloitee",
+    year: "2026",
+    image: "public/da.png",   // ← Put image here
+    link: "https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_EDMaqah93eFtfzFbT_1779209984176_completion_certificate.pdf",
+    color: "from-blue-500 to-cyan-500"
+  },
+    {
+      title: "JAVA ",
+      issuer: "HackerRank",
+      year: "2025",
+      image: "public/java.png",   // ← Put image here
+      link: "https://www.hackerrank.com/certificates/86765f281aa8",
+      color: "from-orange-500 to-yellow-500"
     },
     {
-      title: "Java Certification",
-      issuer: "HackerRank",
+      title: "Java Hibernate(Infosys Certification)",
+      issuer: "Infosys",
       year: "2024",
-      link: "https://www.hackerrank.com/certificates/86765f281aa8"
+      image: "public/javaHiber.png",   // ← Put image here
+      link: "https://www.hackerrank.com/certificates/86765f281aa8",
+      color: "from-green-400 to-emerald-600"
     },
     {
       title: "Full Stack Web Development",
-      issuer: "Udemy",
-      year: "2023"
-    }
+      issuer: "DevTown",
+      year: "2023",
+      image: "public/web.png",   // ← Put image here
+      link: "https://drive.google.com/file/d/1r_9nueb2HNKR60ECT6zMEcHSHJ4UNTgR/view",
+      color: "from-blue-400 to-indigo-600"
+    },
+    
+      
+  {
+    title: "Java Script Certificate",
+    issuer: "Sololearn",
+    year: "2023",
+    image: "public/js.png",   // ← Put image here
+    link: "https://drive.google.com/file/d/1-KXNqVDKPjCRlLHR48zMZuvNK-yymuWb/view",
+    color: "from-blue-600 to-indigo-600"
+  }
+    
   ];
 
   return (
-    <div className={`min-h-screen transition-colors duration-500 ${isDark ? 'bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white' : 'bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50 text-gray-900'}`}>
-      {/* Animated Background */}
+    // <div className={`min-h-screen transition-colors duration-500 ${isDark ? 'bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900 text-white' : 'bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50 text-gray-900'}`}>
+      
+    <div className={`min-h-screen transition-all duration-700 relative overflow-hidden ${
+  isDark 
+    ? 'bg-zinc-950 text-white' 
+    : 'bg-gradient-to-br from-gray-50 via-blue-50 to-purple-50 text-gray-900'
+}`}>
+    
+    {/* Animated Background */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className={`absolute w-96 h-96 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob top-0 left-0 ${isDark ? 'bg-purple-500' : 'bg-purple-300'}`}></div>
         <div className={`absolute w-96 h-96 rounded-full mix-blend-multiply filter blur-3xl opacity-20 animate-blob animation-delay-2000 top-0 right-0 ${isDark ? 'bg-cyan-500' : 'bg-cyan-300'}`}></div>

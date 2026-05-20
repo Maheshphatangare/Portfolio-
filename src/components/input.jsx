@@ -240,7 +240,7 @@ const Hero = ({ isDark }) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [currentRoleIndex, setCurrentRoleIndex] = useState(0);
 
-  const roles = ['Full Stack Developer', 'Frontend Developer', 'Web Developer'];
+  const roles = ['Full Stack Developer', 'Frontend Developer', 'Data Analyst'];
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -334,9 +334,10 @@ const Hero = ({ isDark }) => {
           </p>
         </div>
 
-        <p className={`text-lg md:text-xl ${isDark ? 'text-gray-300' : 'text-gray-600'} leading-relaxed`}>
-          Building fast, beautiful, and scalable web applications with modern technologies.
-        </p>
+       <p className={`text-lg md:text-xl ${isDark ? 'text-gray-300' : 'text-gray-600'} leading-relaxed`}>
+  Crafting exceptional digital experiences with modern frontend technologies and transforming raw data into meaningful stories. 
+  I specialize in building fast, responsive web applications and creating powerful data visualizations & analytics solutions.
+</p>
 
         {/* Social Buttons - Left aligned */}
         <div className="flex gap-6 pt-6 flex-wrap">
