@@ -124,7 +124,7 @@ Focused on performance optimization and responsive layouts for smooth user exper
     title: "Deloitee Data Analytics Professional Certificate",
     issuer: "Deloitee",
     year: "2026",
-    image: "public/da.png",   // ← Put image here
+    image: "da.png",   // ← Put image here
     link: "https://www.theforage.com/completion-certificates/9PBTqmSxAf6zZTseP/io9DzWKe3PTsiS6GG_9PBTqmSxAf6zZTseP_EDMaqah93eFtfzFbT_1779209984176_completion_certificate.pdf",
     color: "from-blue-500 to-cyan-500"
   },
@@ -132,7 +132,7 @@ Focused on performance optimization and responsive layouts for smooth user exper
       title: "JAVA ",
       issuer: "HackerRank",
       year: "2025",
-      image: "public/java.png",   // ← Put image here
+      image: "java.png",   // ← Put image here
       link: "https://www.hackerrank.com/certificates/86765f281aa8",
       color: "from-orange-500 to-yellow-500"
     },
@@ -140,7 +140,7 @@ Focused on performance optimization and responsive layouts for smooth user exper
       title: "Java Hibernate(Infosys Certification)",
       issuer: "Infosys",
       year: "2024",
-      image: "public/javaHiber.png",   // ← Put image here
+      image: "javaHiber.png",   // ← Put image here
       link: "https://www.hackerrank.com/certificates/86765f281aa8",
       color: "from-green-400 to-emerald-600"
     },
@@ -148,7 +148,7 @@ Focused on performance optimization and responsive layouts for smooth user exper
       title: "Full Stack Web Development",
       issuer: "DevTown",
       year: "2023",
-      image: "public/web.png",   // ← Put image here
+      image: "web.png",   // ← Put image here
       link: "https://drive.google.com/file/d/1r_9nueb2HNKR60ECT6zMEcHSHJ4UNTgR/view",
       color: "from-blue-400 to-indigo-600"
     },
@@ -158,7 +158,7 @@ Focused on performance optimization and responsive layouts for smooth user exper
     title: "Java Script Certificate",
     issuer: "Sololearn",
     year: "2023",
-    image: "public/js.png",   // ← Put image here
+    image: "js.png",   // ← Put image here
     link: "https://drive.google.com/file/d/1-KXNqVDKPjCRlLHR48zMZuvNK-yymuWb/view",
     color: "from-blue-600 to-indigo-600"
   }
