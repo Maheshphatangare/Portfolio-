@@ -1,6 +1,9 @@
 
+  // "homepage": "https://github.com/Maheshphatangare/Portfolio-",
 
 
+
+  
 // const About = ({ isDark }) => {
 //   return (
 //     <section id="about" className="relative py-24 px-4 overflow-hidden">
